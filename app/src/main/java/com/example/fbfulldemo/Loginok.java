@@ -78,10 +78,7 @@ public class Loginok extends AppCompatActivity {
         if (id==R.id.menuStore) {
             Intent si = new Intent(Loginok.this,Storing.class);
             startActivity(si);
-        }
-        if (id==R.id.menuChat) {
-            Intent si = new Intent(Loginok.this,Chat.class);
-            startActivity(si);
+
         }
         return true;
     }

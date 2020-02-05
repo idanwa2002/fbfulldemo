@@ -129,10 +129,7 @@ public class DataBase extends AppCompatActivity implements AdapterView.OnItemCli
             Intent si = new Intent(DataBase.this,Storing.class);
             startActivity(si);
         }
-        if (id==R.id.menuChat) {
-            Intent si = new Intent(DataBase.this,Chat.class);
-            startActivity(si);
-        }
+        
         return true;
     }
 
